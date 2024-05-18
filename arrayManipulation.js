@@ -40,3 +40,5 @@ const strings = ["Kuuku", "Agyensaim", "AMPAH", "student", "DCIT", "mobile"];
 const numbers = processArray(num);
 const input = formatArrayStrings(strings, numbers);
 console.log(input);
+
+module.exports = {processArray,formatArrayStrings, strings, num};
